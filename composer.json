@@ -1,0 +1,40 @@
+{
+	"name": "matraux/php-code-style",
+	"description": "",
+	"keywords": ["PHP code style", "MATRAUX"],
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Daniel Žůrek",
+			"email": "info@danielzurek.cz",
+			"homepage": "https://www.matraux.com"
+		}
+	],
+	"require": {
+		"php": "^8.4",
+		"friendsofphp/php-cs-fixer": "^3.95"
+	},
+	"require-dev": {
+		"phpstan/phpstan": "^2.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Matraux\\PhpCodeStyle\\": "src"
+		}
+	},
+	"support": {
+		"issues": "https://github.com/matraux/php-code-style/issues",
+		"source": "https://github.com/matraux/php-code-style"
+	},
+	"scripts": {
+		"cs:check": "php-cs-fixer check",
+		"cs:fix": "php-cs-fixer fix",
+		"phpstan": "phpstan analyse --ansi"
+	},
+	"scripts-descriptions": {
+		"cs:check": "Check code style",
+		"cs:fix": "Fix code style",
+		"phpstan": "Static code analysis"
+	}
+}
