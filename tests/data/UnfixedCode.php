@@ -18,6 +18,23 @@ final class Code
 {
 
 
+	/**
+	 		* description above phpdoc
+	 * another description above phpdoc
+	  		 *
+	 	 	 	 	 	 * @param string $prop	Property
+	 	 	 * @param string $type      Type of property
+
+
+		 	  	 * @param string $name Custom name of property
+	  	 	 		 * @param null|string $description Non-required description
+	 	 		  * @return void
+	*
+			*
+	 */
+	private static function phpdoc($prop,int $type,string $name,$description=null): void  {
+
+	}
 
 	public function __get($name)
 	{

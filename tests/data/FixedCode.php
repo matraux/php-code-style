@@ -83,6 +83,17 @@ final class Code
 		throw new RuntimeException('Failure.');
 	}
 
+	/**
+	 * description above phpdoc
+	 * another description above phpdoc
+	 *
+	 * @param string      $prop        Property
+	 * @param string      $type        Type of property
+	 * @param string      $name        Custom name of property
+	 * @param null|string $description Non-required description
+	 */
+	private static function phpdoc($prop, int $type, string $name, $description = null): void {}
+
 	private function inline(string $x, int $y): void
 	{
 		return;
