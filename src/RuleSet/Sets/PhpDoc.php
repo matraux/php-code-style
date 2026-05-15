@@ -15,6 +15,16 @@ final class PhpDoc extends Definition
 				'allow_mixed' => true,
 				'remove_inheritdoc' => true,
 			],
+			'align_multiline_comment' => [
+				'comment_type' => 'phpdocs_only',
+			],
+			'phpdoc_indent' => true,
+			'phpdoc_align' => [
+				'align' => 'vertical',
+			],
+			'phpdoc_trim' => true,
+			'phpdoc_trim_consecutive_blank_line_separation' => true,
+			'phpdoc_separation' => true,
 		];
 	}
 }
