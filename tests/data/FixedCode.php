@@ -115,7 +115,7 @@ final class Code
 		return true;
 	}
 
-	public function __get($name)
+	public function __get($name): void
 	{
 		throw new Exception('Not implemented');
 	}

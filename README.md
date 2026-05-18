@@ -57,6 +57,7 @@ use Matraux\PhpCsFixer\Config;
 
 return new Config(__DIR__ . '/src');
 ```
+*This configuration runs in risky mode by default. If you need a different rule profile, compose your own PHP-CS-Fixer config from the provided rule set definitions.*
 
 ### Custom PHP-CS-Fixer configuration
 ```php
@@ -83,12 +84,12 @@ return (new Config())
 
 Run code style check
 ```bash
-vendor/bin/php-cs-fixer check
+vendor/bin/php-cs-fixer check --diff --using-cache=no
 ```
 
 Run code style fixer
 ```bash
-vendor/bin/php-cs-fixer fix
+vendor/bin/php-cs-fixer fix --using-cache=no
 ```
 
 <br>

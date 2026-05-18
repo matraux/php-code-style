@@ -9,9 +9,10 @@ use Matraux\PhpCsFixer\RuleSet\Sets\Imports;
 use Matraux\PhpCsFixer\RuleSet\Sets\Operators;
 use Matraux\PhpCsFixer\RuleSet\Sets\PhpDoc;
 use Matraux\PhpCsFixer\RuleSet\Sets\Syntax;
+use PhpCsFixer\Config as PhpCsFixerConfig;
 use PhpCsFixer\Finder;
 
-final class Config extends \PhpCsFixer\Config
+final class Config extends PhpCsFixerConfig
 {
 	public function __construct(string ...$paths)
 	{
@@ -35,6 +36,8 @@ final class Config extends \PhpCsFixer\Config
 		$rules = [
 			'@PER-CS' => true,
 			'@autoPHPMigration' => true,
+			'@PER-CS:risky' => true,
+			'@autoPHPMigration:risky' => true,
 		];
 		foreach ($definitions as $definition) {
 			$rules[$definition->getName()] = true;
