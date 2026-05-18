@@ -8,7 +8,7 @@ use Matraux\PhpCsFixer\RuleSet\Sets\Imports;
 use Matraux\PhpCsFixer\RuleSet\Sets\Operators;
 use Matraux\PhpCsFixer\RuleSet\Sets\PhpDoc;
 use Matraux\PhpCsFixer\RuleSet\Sets\Syntax;
-use Matraux\PhpCsFixer\Test\Support\UnitTester;
+use Matraux\PhpCsFixer\Test\UnitTester;
 
 final class DefinitionCest
 {

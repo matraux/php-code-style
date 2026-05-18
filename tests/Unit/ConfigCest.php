@@ -2,7 +2,7 @@
 
 namespace Matraux\PhpCsFixer\Test\Unit;
 
-use Matraux\PhpCsFixer\Test\Support\UnitTester;
+use Matraux\PhpCsFixer\Test\UnitTester;
 use Symfony\Component\Process\Process;
 
 final class ConfigCest
@@ -13,9 +13,9 @@ final class ConfigCest
 		$output = codecept_output_dir();
 		$cwd = codecept_root_dir();
 
-		$tester->assertIsString($data);
-		$tester->assertIsString($output);
-		$tester->assertIsString($cwd);
+		assert(is_string($data));
+		assert(is_string($output));
+		assert(is_string($cwd));
 
 		$fixedFile = $data . 'FixedCode.php';
 		$unfixedFile = $data . 'UnfixedCode.php';

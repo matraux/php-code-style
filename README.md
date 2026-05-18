@@ -2,7 +2,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/matraux/php-cs-fixer-config.svg?logo=packagist&logoColor=white)](https://packagist.org/packages/matraux/php-cs-fixer-config)
 [![Last release](https://img.shields.io/github/v/release/matraux/php-cs-fixer-config?display_name=tag&logo=github&logoColor=white)](https://github.com/matraux/php-cs-fixer-config/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
-[![PHP](https://img.shields.io/badge/PHP-8.3+-blue.svg?logo=php&logoColor=white)](https://php.net)
+[![PHP](https://img.shields.io/badge/PHP-7.4+-blue.svg?logo=php&logoColor=white)](https://php.net)
 [![Security Policy](https://img.shields.io/badge/Security-Policy-blue?logo=bitwarden&logoColor=white)](./.github/SECURITY.md)
 [![Contributing](https://img.shields.io/badge/Contributing-Disabled-lightgrey?logo=github&logoColor=white)](CONTRIBUTING.md)
 [![QA Status](https://img.shields.io/github/actions/workflow/status/matraux/php-cs-fixer-config/qa.yml?label=Quality+Assurance&logo=checkmarx&logoColor=white)](https://github.com/matraux/php-cs-fixer-config/actions/workflows/qa.yml)
@@ -12,7 +12,7 @@
 <br>
 
 ## Introduction
-A PHP 8.3+ package that provides the shared MATRAUX configuration for `friendsofphp/php-cs-fixer`.
+A PHP 7.4+ package that provides the shared MATRAUX configuration for `friendsofphp/php-cs-fixer`.
 
 It exposes a ready-to-use `Matraux\PhpCsFixer\Config` for project `.php-cs-fixer.dist.php` files and reusable grouped rule sets for custom PHP-CS-Fixer configurations.
 
@@ -42,7 +42,7 @@ composer require --dev matraux/php-cs-fixer-config
 ## Requirements
 | version | PHP | Note |
 | ---- | --- | --- |
-| 1.0.0 | 8.3+ | Support PHP 8.3 |
+| 1.0.0 | 7.4+ | Support PHP 7.4 |
 
 <br>
 
