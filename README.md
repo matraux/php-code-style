@@ -1,6 +1,5 @@
 # MATRAUX PHP-CS-Fixer config
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/matraux/php-cs-fixer-config.svg?logo=packagist&logoColor=white)](https://packagist.org/packages/matraux/php-cs-fixer-config)
-[![Last release](https://img.shields.io/github/v/release/matraux/php-cs-fixer-config?display_name=tag&logo=github&logoColor=white)](https://github.com/matraux/php-cs-fixer-config/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
 [![PHP](https://img.shields.io/badge/PHP-8.3+-blue.svg?logo=php&logoColor=white)](https://php.net)
 [![Security Policy](https://img.shields.io/badge/Security-Policy-blue?logo=bitwarden&logoColor=white)](./.github/SECURITY.md)
@@ -39,11 +38,14 @@ composer require --dev matraux/php-cs-fixer-config
 
 <br>
 
-## Requirements
-| version | PHP | Note |
-| ---- | --- | --- |
-| 1.0.0 | 7.4+ | Support PHP 7.4 |
-| 2.0.0 | 8.3+ | Support PHP 8.3 |
+## PHP compatibility
+
+This package provides separate major versions for different PHP baselines.
+
+| Version | PHP |
+| ---- | ---: |
+| 1.x | 7.4+ |
+| 2.x | 8.3+ |
 
 <br>
 
